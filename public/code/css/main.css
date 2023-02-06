@@ -1,0 +1,90 @@
+html {
+  margin: 20px auto;
+
+  line-height: 1.5;
+  max-width: 90%;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+
+  scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+
+    background-color: white;
+
+
+}
+
+::marker {
+    color: teal;
+}
+
+::selection {
+    /* color: red; */
+    background: rgba(210, 230, 230, 0.8);
+}
+
+
+.logo {
+    float: left;
+    height: 50px;
+    padding: 0;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo .home {
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo .home:hover {
+    color: var(--primaryColor);
+}
+
+.navMain {
+    /* float: left; */
+    /* width: 80%; */
+    /* margin: auto; */
+    /* margin-left: 200px; */
+    text-align: center;
+
+
+}
+
+.navMain a {
+    /* float: none; */
+    /* width: 300px !important; */
+    /* display: inline-block; */
+    /* padding: 0 20px; */
+    /* font-size: 28px; */
+    font-family: inherit;
+}
+
+.footer {
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    /* position: relative; */
+    bottom: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    background-image: radial-gradient(#fff, #eee);
+}
+

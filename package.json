@@ -1,0 +1,48 @@
+{
+  "name": "mcs",
+  "version": "1.0.0",
+  "description": "Website of Manthanwar Consultancy Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manthanwar/MCS.git"
+  },
+  "keywords": [
+    "systems",
+    "engineering",
+    "process",
+    "design",
+    "optmization",
+    "control",
+    "model",
+    "predictive",
+    "control",
+    "platform",
+    "algorithms",
+    "tools",
+    "products",
+    "solutions",
+    "food",
+    "water",
+    "energy",
+    "health",
+    "agriculture",
+    "environment",
+    "agriculture",
+    "manufacturing"
+  ],
+  "author": "Amit M. Manthanwar",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/manthanwar/MCS/issues"
+  },
+  "homepage": "https://github.com/manthanwar/MCS#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7"
+  }
+}
